@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Header() {
+function Navbar() {
   return (
     <React.Fragment>
       <nav
         className="navbar navbar-expand-lg navbar-dark"
-        style="background-color: rgba(60, 141, 155, 0.9)"
+        style={{ backgroundColor: "rgba(60, 141, 155, 0.9)" }}
       >
         <a className="navbar-brand" href="index.html">
           Justin Roose
@@ -24,25 +25,26 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="index.html">
+              <Link to="/" className="nav-link" href="index.html">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="portfolio.html">
+              <Link to="/portfolio" className="nav-link" href="portfolio.html">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
+              <Link to="/contact" className="nav-link" href="contact.html">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
                 href="https://github.com/JDouglasR/Portfolio/blob/master/DEV-RESUME.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Resume
               </a>
@@ -54,4 +56,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

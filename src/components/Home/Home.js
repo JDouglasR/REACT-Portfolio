@@ -13,16 +13,14 @@ function Home() {
               <hr />
               <img
                 className="card-img-top"
-                src="Assets/Images/Bio-Picture.jpg"
-                alt="Portrait photo of Justin Roose smiling"
+                src={require("./img/Bio-Picture.jpg")}
+                alt="Portrait of Justin Roose smiling"
               />
               <div className="card-body">
                 <p className="card-text">
-                  Hey, my name is Justin! I'm a full-stack web developer with a
-                  concentration on MERN stack. I am qualified in MongoDB,
-                  Express.js, React.js, and Node.js with experience in HTML, CSS
-                  (Bootstrap and Halfmoon frameworks), and JavaScript(jQuery,
-                  APIs, JSON, AJAX, MySQL, React.js).
+                  {
+                    "Hey, my name is Justin! I'm a full-stack web developer with a concentration on MERN stack. I am qualified in MongoDB, Express.js, React.js, and Node.js with experience in HTML, CSS {Bootstrap and Halfmoon frameworks}, and JavaScript{jQuery, APIs, JSON, AJAX, MySQL, React.js}."
+                  }
                 </p>
                 <br />
                 <p>
@@ -31,7 +29,11 @@ function Home() {
                   for any queries or contract work. Thanks for visiting my page!
                 </p>
                 <br />
-                <a href="mailto:justin.d.roose@gmail.com" target="_blank">
+                <a
+                  href="mailto:justin.d.roose@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Email: Justin.D.Roose@gmail.com
                 </a>
               </div>

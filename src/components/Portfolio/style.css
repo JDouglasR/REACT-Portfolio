@@ -1,0 +1,65 @@
+body {
+  background-image: url("../Images/abstract-activity-art-background-288100.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+#padding {
+  padding: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.btn {
+  justify-self: auto;
+}
+
+footer {
+  background-color: rgba(60, 141, 155, 0.9);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  margin-top: auto;
+}
+
+.col-md-4 {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
