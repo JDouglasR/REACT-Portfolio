@@ -18,13 +18,14 @@ function Contact() {
     <React.Fragment>
       <Container>
         <Row id="padding">
-          <Col />
+          <Col md={3} />
           <Col md={6}>
             <Card className="card">
               <h3>Contact</h3>
               <hr />
-              <div>
+              <Row>
                 <Link
+                  to="https://github.com/JDouglasR"
                   href="https://github.com/JDouglasR"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -34,7 +35,8 @@ function Contact() {
                     className="fab fa-github-square fa-5x iconClass"
                   />
                 </Link>
-                <br />
+              </Row>
+              <Row>
                 <a
                   href="https://linkedin.com/in/justin-douglas-roose"
                   target="_blank"
@@ -45,7 +47,8 @@ function Contact() {
                     className="fab fa-linkedin fa-5x iconClass"
                   />
                 </a>
-                <br />
+              </Row>
+              <Row>
                 <a
                   href="https://facebook.com/jdouglasr"
                   target="_blank"
@@ -56,7 +59,8 @@ function Contact() {
                     className="fab fa-facebook-square fa-5x iconClass"
                   />
                 </a>
-                <br />
+              </Row>
+              <Row>
                 <a
                   href="mailto:justin.d.roose@gmail.com"
                   target="_blank"
@@ -67,8 +71,9 @@ function Contact() {
                     className="fas fa-envelope-square fa-5x iconClass"
                   />
                 </a>
-                <br />
-                <Link
+              </Row>
+              <Row>
+                <a
                   href="tel:14405967722"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,9 +82,8 @@ function Contact() {
                     icon={faPhoneSquare}
                     className="fas fa-phone-square fa-5x iconClass"
                   />
-                </Link>
-                <br />
-              </div>
+                </a>
+              </Row>
             </Card>
           </Col>
           <Col />

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
-import { Container, Row, Button, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import Project from "../Project";
+import projectsArr from "./projects.json";
 
 function Portfolio() {
+  const [projects, setProjects] = useState(projectsArr);
   return (
     <React.Fragment>
       <Container>
@@ -15,127 +17,15 @@ function Portfolio() {
               <hr />
               <Card.Body className="card-body">
                 <Row className="row">
-                  <Project />
-                  <div className="col-md-4">
-                    <div className="card">
-                      <p>Work Day Scheduler</p>
-                      <img
-                        className="card-img image-thumbail"
-                        src={require("./img/workday-img.png")}
-                        alt="Home Page of Work Day Scheduler."
-                      />
-                    </div>
-                    <Button
-                      href="https://jdouglasr.github.io/Work-Day-Scheduler/"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Deployed
-                    </Button>
-                    <Button
-                      href="https://github.com/JDouglasR/Work-Day-Scheduler"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Git-Repo
-                    </Button>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="card">
-                      <p>Weather Dashboard</p>
-                      <img
-                        className="card-img image-thumbail"
-                        src={require("./img/Weather-Dashboard.png")}
-                        alt="Home Page of Weather Dashboard."
-                      />
-                    </div>
-                    <Button
-                      href="https://jdouglasr.github.io/Weather-Dashboard/"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Deployed
-                    </Button>
-                    <Button
-                      href="https://github.com/JDouglasR/Weather-Dashboard"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Git-Repo
-                    </Button>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="card">
-                      <p>Code Quiz</p>
-                      <img
-                        className="card-img image-thumbail"
-                        src={require("./img/Code-Quiz-index.png")}
-                        alt="Home Page of Code Quiz."
-                      />
-                    </div>
-                    <Button
-                      href="https://jdouglasr.github.io/Code-Quiz/"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Deployed
-                    </Button>
-                    <Button
-                      href="https://github.com/JDouglasR/Code-Quiz"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Git-Repo
-                    </Button>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="card">
-                      <p>Password Generator</p>
-                      <img
-                        className="card-img image-thumbail"
-                        src={require("./img/pg-index-page.png")}
-                        alt="Home Page of Weather Dashboard."
-                      />
-                    </div>
-                    <Button
-                      href="https://jdouglasr.github.io/Password_Generator/"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Deployed
-                    </Button>
-                    <Button
-                      href="https://github.com/JDouglasR/Password_Generator"
-                      className="btn btn-info btn-sm"
-                      role="button"
-                      aria-pressed="true"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Git-Repo
-                    </Button>
-                  </div>
+                  {projects.map((project) => (
+                    <Project
+                      key={project.id}
+                      name={project.name}
+                      image={project.image}
+                      deployed={project.deployed}
+                      repo={project.repo}
+                    />
+                  ))}
                 </Row>
               </Card.Body>
             </Card>
