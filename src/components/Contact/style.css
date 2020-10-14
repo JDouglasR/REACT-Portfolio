@@ -1,13 +1,10 @@
-/* body {
-  background-image: url("../Images/abstract-activity-art-background-288100.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-} */
+}
 
-i {
+.iconClass {
   padding-left: 5px;
   padding-right: 5px;
 }
