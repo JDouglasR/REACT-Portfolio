@@ -23,7 +23,7 @@ function Contact() {
             <Card className="card">
               <h3>Contact</h3>
               <hr />
-              <Row>
+              <Row className="row">
                 <Link
                   to="https://github.com/JDouglasR"
                   href="https://github.com/JDouglasR"

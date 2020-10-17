@@ -4,12 +4,17 @@
   min-height: 100vh;
 } */
 
-/* #padding {
+#padding {
   padding: 30px;
-} */
-.row {
+}
+div.row {
   width: 100%;
   justify-content: center;
+  margin: 0;
+}
+
+div.container {
+  margin-bottom: 60px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
