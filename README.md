@@ -8,7 +8,7 @@ Unlicensed
 
 ## **Description**
 
-This project was to take my base portfolio page and convert it to a react app.
+This project was to take my base portfolio page and convert it to a react app. You can view the deployed site at https://jdouglasr.github.io/react-portfolio/
 
 ### **Usage**
 
