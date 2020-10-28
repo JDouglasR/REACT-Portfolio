@@ -37,8 +37,8 @@
     {
         "id": 6,
         "name": "Build & Flex",
-        "image": "./img/B&F-home.png",
-        "deployed": "https://cw-notes-taker.herokuapp.com/",
-        "repo": "https://github.com/JDouglasR/BuildAndFlex"
+        "image": "./img/build.png",
+        "deployed": "https://jdouglasr.github.io/BuildAndFlex/",
+        "repo": "https://github.com/JDouglasR/Build-Flex"
       }
 ]
