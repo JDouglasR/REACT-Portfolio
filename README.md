@@ -16,5 +16,5 @@ none
 
 ### **Questions**
 
-- Find me on [Github](https//jdouglasr.github.io)!
+- Find me on [Github](https//github.com/jdouglasr)!
 - For further information or questions, email me at justin.d.roose@gmail.com
