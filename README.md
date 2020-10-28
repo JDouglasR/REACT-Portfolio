@@ -1,6 +1,6 @@
 # **_React Portfolio_**
 
-![GitHub](https://img.shields.io/github/license/jdouglasr/react-portfolio)
+![GitHub](https://img.shields.io/github/license/jdouglasr/jdouglasr.github.io)
 
 ## **License**
 
@@ -16,5 +16,5 @@ none
 
 ### **Questions**
 
-- Find me on [Github](https//github.com/jdouglasr)!
+- Find me on [Github](https//jdouglasr.github.io)!
 - For further information or questions, email me at justin.d.roose@gmail.com
