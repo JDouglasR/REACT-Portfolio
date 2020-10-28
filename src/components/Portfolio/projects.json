@@ -33,5 +33,12 @@
         "image": "./img/pg-index-page.png",
         "deployed": "https://jdouglasr.github.io/Password_Generator/",
         "repo": "https://github.com/JDouglasR/Password_Generator"
+      },
+    {
+        "id": 6,
+        "name": "Build & Flex",
+        "image": "./img/B&F-home.png",
+        "deployed": "https://cw-notes-taker.herokuapp.com/",
+        "repo": "https://github.com/JDouglasR/BuildAndFlex"
       }
 ]
