@@ -36,9 +36,16 @@
       },
     {
         "id": 6,
+        "name": "Note Taker",
+        "image": "./img/note.png",
+        "deployed": "https://cw-notes-taker.herokuapp.com/",
+        "repo": "https://github.com/JDouglasR/Note-Taker"
+      },
+    {
+        "id": 7,
         "name": "Build & Flex",
         "image": "./img/build.png",
-        "deployed": "https://jdouglasr.github.io/BuildAndFlex/",
+        "deployed": "https://buildandflex.herokuapp.com/",
         "repo": "https://github.com/JDouglasR/Build-Flex"
       }
 ]
