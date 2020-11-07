@@ -47,5 +47,12 @@
         "image": "./img/build.png",
         "deployed": "https://buildandflex.herokuapp.com/",
         "repo": "https://github.com/JDouglasR/Build-Flex"
+      },
+    {
+        "id": 8,
+        "name": "GoSEE",
+        "image": "./img/go-see.png",
+        "deployed": "https://dashboard.heroku.com/apps/go-see",
+        "repo": "https://github.com/JDouglasR/GoSEE"
       }
 ]
