@@ -7,48 +7,8 @@
         "deployed": "https://jdouglasr.github.io/Dinner-and-a-show/",
         "repo": "https://github.com/JDouglasR/Dinner-and-a-show"
       },
-    {
+      {
         "id": 2,
-        "name": "Work Day Scheduler",
-        "image": "./img/workday-img.png",
-        "description": "The purpose of this homework assignment was to create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
-        "deployed": "https://jdouglasr.github.io/Work-Day-Scheduler/",
-        "repo": "https://github.com/JDouglasR/Work-Day-Scheduler"
-      },
-    {
-        "id": 3,
-        "name": "Weather Dashboard",
-        "image": "./img/Weather-Dashboard.png",
-        "description": "The purpose of this homework assignment was to use the OpenWeather API to retrieve weather data for cities and display it to a user in an organized and concise manner, using icons and labels to specify conditions. Then, to use localStorage to store persistent data for later viewing.",
-        "deployed": "https://jdouglasr.github.io/Weather-Dashboard/",
-        "repo": "https://github.com/JDouglasR/Weather-Dashboard"
-      },
-    {
-        "id": 4,
-        "name": "Code Quiz",
-        "image": "./img/Code-Quiz-index.png",
-        "description": "The purpose of this homework assignment was t build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.",
-        "deployed": "https://jdouglasr.github.io/Code-Quiz/",
-        "repo": "https://github.com/JDouglasR/Code-Quiz"
-      },
-    {
-        "id": 5,
-        "name": "Password Generator",
-        "image": "./img/pg-index-page.png",
-        "description": "The purpose of this homework assignment was to create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code.",
-        "deployed": "https://jdouglasr.github.io/Password_Generator/",
-        "repo": "https://github.com/JDouglasR/Password_Generator"
-      },
-    {
-        "id": 6,
-        "name": "Note Taker",
-        "image": "./img/note.png",
-        "description": "This application can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file.",
-        "deployed": "https://cw-notes-taker.herokuapp.com/",
-        "repo": "https://github.com/JDouglasR/Note-Taker"
-      },
-    {
-        "id": 7,
         "name": "Build & Flex",
         "image": "./img/build.png",
         "description": "This group project was created to build our first full-stack app. This web-app is for users who want to create a walking challenge for themselves and keep track of the progress.",
@@ -56,11 +16,52 @@
         "repo": "https://github.com/JDouglasR/Build-Flex"
       },
     {
-        "id": 8,
+        "id": 3,
         "name": "GoSEE",
         "image": "./img/go-see.png",
         "description": "This group project was to create a full stack application with Reactjs as the front end. We wanted to build a social traveling app that allows users from around the world to meet, talk about locations to travel to, and even plan trips together! Our MVP allows users to create an account and post to a main feed that all users can see and respond to!",
         "deployed": "https://dashboard.heroku.com/apps/go-see",
         "repo": "https://github.com/JDouglasR/GoSEE"
+      },
+    {
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "image": "./img/workday-img.png",
+        "description": "The purpose of this homework assignment was to create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+        "deployed": "https://jdouglasr.github.io/Work-Day-Scheduler/",
+        "repo": "https://github.com/JDouglasR/Work-Day-Scheduler"
+      },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "./img/Weather-Dashboard.png",
+        "description": "The purpose of this homework assignment was to use the OpenWeather API to retrieve weather data for cities and display it to a user in an organized and concise manner, using icons and labels to specify conditions. Then, to use localStorage to store persistent data for later viewing.",
+        "deployed": "https://jdouglasr.github.io/Weather-Dashboard/",
+        "repo": "https://github.com/JDouglasR/Weather-Dashboard"
+      },
+    {
+        "id": 6,
+        "name": "Code Quiz",
+        "image": "./img/Code-Quiz-index.png",
+        "description": "The purpose of this homework assignment was t build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.",
+        "deployed": "https://jdouglasr.github.io/Code-Quiz/",
+        "repo": "https://github.com/JDouglasR/Code-Quiz"
+      },
+    {
+        "id": 7,
+        "name": "Password Generator",
+        "image": "./img/pg-index-page.png",
+        "description": "The purpose of this homework assignment was to create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code.",
+        "deployed": "https://jdouglasr.github.io/Password_Generator/",
+        "repo": "https://github.com/JDouglasR/Password_Generator"
+      },
+    {
+        "id": 8,
+        "name": "Note Taker",
+        "image": "./img/note.png",
+        "description": "This application can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file.",
+        "deployed": "https://cw-notes-taker.herokuapp.com/",
+        "repo": "https://github.com/JDouglasR/Note-Taker"
       }
+    
 ]
