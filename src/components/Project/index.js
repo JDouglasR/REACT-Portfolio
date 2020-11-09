@@ -5,13 +5,17 @@ function Project(prop) {
   return (
     <React.Fragment>
       <Col md={4}>
-        <Card className="card card-text-center">
+        <Card
+          style={{ display: "flex", height: "550px" }}
+          className="card card-text-center"
+        >
           <p>{prop.name}</p>
           <Card.Img
             className="card-img image-thumbail"
             src={prop.image}
             alt="Home Page of Dinner and a Show."
           />
+          <Card.Body>{prop.description}</Card.Body>
         </Card>
         <Button
           href={prop.deployed}

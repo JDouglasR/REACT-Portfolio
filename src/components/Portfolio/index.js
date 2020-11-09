@@ -11,7 +11,7 @@ function Portfolio() {
       <Container>
         <Row id="padding">
           <Col />
-          <Col md={10}>
+          <Col md={12}>
             <Card className="card text-center">
               <h3>Portfolio</h3>
               <hr />
@@ -22,6 +22,7 @@ function Portfolio() {
                       key={project.id}
                       name={project.name}
                       image={project.image}
+                      description={project.description}
                       deployed={project.deployed}
                       repo={project.repo}
                     />
