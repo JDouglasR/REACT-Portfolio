@@ -1,12 +1,7 @@
-/* body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
-
 #padding {
   padding: 30px;
 }
+
 div.row {
   width: 100%;
   justify-content: center;
@@ -16,6 +11,7 @@ div.row {
 div.container {
   margin-bottom: 60px;
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -72,13 +68,3 @@ div.container {
 .fa-phone-square:active {
   color: #309b30;
 }
-
-/* footer {
-  background-color: rgba(60, 141, 155, 0.9);
-  color: rgb(255, 255, 255);
-  text-align: center;
-  height: 50px;
-  width: 100%;
-  line-height: 50px;
-  margin-top: auto;
-} */

@@ -13,7 +13,7 @@ function Navigation() {
         className="navbar"
         style={{ backgroundColor: "rgba(60, 141, 155, 0.9)" }}
       >
-        <Navbar.Brand to="/" href="index.html">
+        <Navbar.Brand to="/" href="/">
           <strong>Justin Roose</strong>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -62,7 +62,7 @@ function Navigation() {
 
             <a
               className="nav-link"
-              href="https://github.com/JDouglasR/Portfolio/blob/master/DEV-RESUME.pdf"
+              href="https://drive.google.com/file/d/1uNhfgv_kiQ1eg59TFCfgTFfkvodpd_qE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
