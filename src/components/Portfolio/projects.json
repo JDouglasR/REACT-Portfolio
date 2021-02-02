@@ -20,7 +20,7 @@
         "name": "GoSEE",
         "image": "./img/go-see.png",
         "description": "This group project was to create a full stack application with Reactjs as the front end. We wanted to build a social traveling app that allows users from around the world to meet, talk about locations to travel to, and even plan trips together! Our MVP allows users to create an account and post to a main feed that all users can see and respond to!",
-        "deployed": "https://dashboard.heroku.com/apps/go-see",
+        "deployed": "https://go-see.herokuapp.com/",
         "repo": "https://github.com/JDouglasR/GoSEE"
       },
     {

@@ -1,6 +1,11 @@
-.container {
+/* .project {
   display: flex;
+  flex-wrap: wrap;
 }
+
+.project > * {
+  flex-basis: 1 1 33%;
+} */
 
 #padding {
   padding: 30px;

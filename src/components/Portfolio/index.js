@@ -8,7 +8,7 @@ function Portfolio() {
   const [projects, setProjects] = useState(projectsArr);
   return (
     <React.Fragment>
-      <Container>
+      <Container className="container">
         <Row id="padding">
           <Col />
           <Col md={12}>
@@ -19,6 +19,7 @@ function Portfolio() {
                 <Row className="row">
                   {projects.map((project) => (
                     <Project
+                      className="project"
                       key={project.id}
                       name={project.name}
                       image={project.image}
