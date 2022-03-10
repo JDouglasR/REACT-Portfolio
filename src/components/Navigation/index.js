@@ -62,7 +62,7 @@ function Navigation() {
 
             <a
               className="nav-link"
-              href="https://docs.google.com/document/d/1M--zeYEQAkrxNpph0j6nBTOcXA-KQhnpOznq15j_T68/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1ciRcNFTWxZ4Se994na_2ev3araiH719M/edit?usp=sharing&ouid=104894449656846514963&rtpof=true&sd=true"
               target="_blank"
               rel="noopener noreferrer"
             >
