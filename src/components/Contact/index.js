@@ -25,8 +25,7 @@ function Contact() {
               <hr />
               <Row className="row">
                 <Link
-                  to="https://github.com/JDouglasR"
-                  href="https://github.com/JDouglasR"
+                  to={{ pathname: "https://github.com/JDouglasR" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -37,8 +36,10 @@ function Contact() {
                 </Link>
               </Row>
               <Row>
-                <a
-                  href="https://linkedin.com/in/justin-douglas-roose"
+                <Link
+                  to={{
+                    pathname: "https://linkedin.com/in/justin-douglas-roose",
+                  }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -46,11 +47,11 @@ function Contact() {
                     icon={faLinkedin}
                     className="fab fa-linkedin fa-5x iconClass"
                   />
-                </a>
+                </Link>
               </Row>
               <Row>
-                <a
-                  href="https://facebook.com/jdouglasr"
+                <Link
+                  to={{ pathname: "https://facebook.com/jdouglasr" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -58,11 +59,11 @@ function Contact() {
                     icon={faFacebookSquare}
                     className="fab fa-facebook-square fa-5x iconClass"
                   />
-                </a>
+                </Link>
               </Row>
               <Row>
-                <a
-                  href="mailto:justin.d.roose@gmail.com"
+                <Link
+                  to={{ pathname: "mailto:justin.d.roose@gmail.com" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -70,11 +71,11 @@ function Contact() {
                     icon={faEnvelopeSquare}
                     className="fas fa-envelope-square fa-5x iconClass"
                   />
-                </a>
+                </Link>
               </Row>
               <Row>
-                <a
-                  href="tel:14405967722"
+                <Link
+                  to={{ pathname: "tel:14405967722" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -82,7 +83,7 @@ function Contact() {
                     icon={faPhoneSquare}
                     className="fas fa-phone-square fa-5x iconClass"
                   />
-                </a>
+                </Link>
               </Row>
             </Card>
           </Col>
